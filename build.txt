@@ -1,0 +1,4 @@
+displayName = BSOD Mod
+author = chloenaut
+version = 0.1
+buildIgnore = *.csproj, *.user, *.bat, obj\*, bin\*, .vs\*, .git\*
