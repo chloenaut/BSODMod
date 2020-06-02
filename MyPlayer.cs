@@ -5,7 +5,7 @@ namespace BSODMod
 {
 	class MyPlayer : ModPlayer
 	{
-		private bool playerDied = false;
+		public bool playerDied = false;
 		private int deathTimer = 180;
 
 		public override void PreUpdate()

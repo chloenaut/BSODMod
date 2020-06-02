@@ -19,7 +19,7 @@ namespace BSODMod
 					"BSOD: CrashScreen",
 					delegate
 					{
-						if (Main.LocalPlayer.dead)
+						if (Main.LocalPlayer.GetModPlayer<MyPlayer>().playerDied)
 						{
 							Color color = Color.Blue;
 							Texture2D tex = this.BSODTEX;
