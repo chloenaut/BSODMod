@@ -1,2 +1,3 @@
 If you die, the game quits
-Don't die :^)
+Don't die
+
